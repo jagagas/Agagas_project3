@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+nav {
+  /* background-color: #BF0413; */
+  height: 80px;
+  width: 100%;
+}
+
+nav ul {
+  float: center;
+  margin-right: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a {
+  color: #BF0413;
+  font-size: 25px;
+  padding: 40px;
+  text-transform: uppercase;
+
+}
+.navigation {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  display: grid;
+}
+
+nav a:hover {
+  color: #D95F69;
+}
