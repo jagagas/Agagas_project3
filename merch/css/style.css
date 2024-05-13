@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+nav{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+  font-size: 1.5em;
+}
+nav a {
+  float: right;
+  padding: 1%;
+  text-decoration: none;
+  color: rgb(3, 141, 141);
+  }
+
+a:hover {
+  background-color: rgb(238, 223, 12);
+}
+
+.merchpage{
+  background: linear-gradient(to bottom, white, rgb(8, 231, 231));
+}

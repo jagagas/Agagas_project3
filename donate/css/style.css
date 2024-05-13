@@ -5,38 +5,22 @@
   list-style: none;
   box-sizing: border-box;
 }
+nav{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+  font-size: 1.5em;
+}
+nav a {
+  float: right;
+  padding: 1%;
+  text-decoration: none;
+  color: rgb(3, 141, 141);
+  }
 
-nav {
-  /* background-color: #BF0413; */
-  height: 80px;
-  width: 100%;
+a:hover {
+  background-color: rgb(238, 223, 12);
 }
 
-nav ul {
-  float: center;
-  margin-right: 20px;
-}
-
-nav ul li {
-  display: inline-block;
-  line-height: 80px;
-  margin: 0 5px;
-}
-
-nav ul li a {
-  color: #BF0413;
-  font-size: 25px;
-  padding: 40px;
-  text-transform: uppercase;
-
-}
-.navigation {
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  display: grid;
-}
-
-nav a:hover {
-  color: #D95F69;
+.donatepage{
+  background: linear-gradient(to bottom, white, rgb(8, 231, 231));
 }
