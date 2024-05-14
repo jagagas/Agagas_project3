@@ -1,4 +1,4 @@
-# Project 3: Save the Ovaries 
+# Project 3: Teal Together
 by Jenny Agagas
 
 # project overview
