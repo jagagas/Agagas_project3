@@ -11,49 +11,44 @@
   position: relative;
 }
 
+.logo img{
+  height: 20%;
+  width: auto;
+}
 
 nav {
-  display: flex; /* Use flexbox */
-  justify-content: space-between; /* Align items to the right */
+  display: flex;
+  justify-content: space-between;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 600;
   font-size: 1.2em;
-  background-color: rgb(255, 246, 114);
-  padding: 2.1em;
+  background-color: rgb(150, 56, 56);
+  /* padding: 0.5% 1%; Adjust top and bottom padding */
   height: fit-content;
-  }
+  width: 100%;
+}
 
 nav ul {
   margin: 0;
   padding: 0;
-  display: flex; /* Use flexbox for the list */
+  display: flex;
 }
 
 nav li {
   align-items: center;
-  margin-left: 10px; /* Add spacing between list items */
-  word-spacing: 1em;
+  margin-left: 10px;
 }
-
-.logo{
-    height: 5%;
-    width: auto;
-    align-self: flex-start;
-}
-
 
 nav a:hover {
-  background-color: #74e4da; /* Set link color */
+  background-color: #74e4da;
   padding: 1em;
-  text-decoration: none; /* Remove underline from links */
+  text-decoration: none;
 }
-
 
 .balloons img {
   width: 100%;
-  height: 0%;
+  height: auto; /* Set height to auto */
   align-items: center;
-
 }
 
 .banner img {
@@ -61,26 +56,26 @@ nav a:hover {
   height: 5%;
 }
 
-.aboutpage{
+.aboutpage {
   background: linear-gradient(to bottom, white, rgb(8, 231, 231));
 }
 
-.eventscontainer{
+.eventscontainer {
   display: flex;
   align-items: center;
   flex-direction: column;
   width: 100%;
   padding: 5%;
-  box-sizing: border-box;
   flex-wrap: nowrap;
 }
 
+.eventtitle {
+  flex-direction: column;
+}
 
-/* Apply styles to headings */
-.aboutpage h1{
-  padding: 1%;
-  color: rgb(0, 174, 180);
+.aboutpage h1 {
   padding: auto;
+  color: rgb(0, 174, 180);
   font-size: 5em;
   font-family: "Poetsen One", sans-serif;
   font-style: normal;
@@ -88,7 +83,7 @@ nav a:hover {
 
 .aboutpage h2 {
   font-size: 3em;
-  color: #00070a; /* Change text color */
+  color: #00070a;
   font-family: "poetsen one", sans-serif;
   font-style: normal;
 }
