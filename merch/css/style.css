@@ -65,11 +65,58 @@ nav a:hover {
   bottom: 0%;
 }
 
-.merchpage{
+/*nav*/
+
+/* Merch Page */
+.merchpage {
   background: linear-gradient(to bottom, white, rgb(8, 231, 231));
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
 }
 
+.merchprice1,
+.merchprice2,
+.merchprice3 {
+  padding: 3%;
+  font-size: 1.1em;
+  font-family: 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
 
+/* H4 */
+h4 {
+  font-family: "Poetsen One", sans-serif;
+  letter-spacing: 1px;
+  font-weight: lighter;
+  font-size: 1.2em;
+  padding: 3%;
+  margin: 10%;
+  border-radius: 5px;
+  text-align: center;
+  background-color: rgb(239, 245, 82);
+  transition: transform 0.3s ease;
+}
+
+h4:hover {
+  transform: scale(1.1);
+}
+
+/* Merch Container */
+.merch-container {
+  padding: 10px;
+  background-color: rgb(179, 254, 254);
+  border-radius: 20px;
+}
+
+/* Images */
+.merchpage img {
+  width: 400px;
+  height: auto;
+  border-radius: 20px;
+}
+
+/* Footer */
 footer {
   padding: 10px 10px;
   width: 100%;
@@ -84,7 +131,7 @@ footer p {
 }
 
 footer a img {
-  height: 60px; /* Adjust image height as needed */
+  height: 60px; 
   width: auto;
   padding: 10px;
 }

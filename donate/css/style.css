@@ -51,7 +51,13 @@ nav a{
 nav a:hover {
   background-color: #fff700;
   text-decoration: none;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
 } 
+
+/*nav*/
 
 .balloons img {
   width: 100%;
@@ -67,8 +73,74 @@ nav a:hover {
 
 .donatepage{
   background: linear-gradient(to bottom, white, rgb(8, 231, 231));
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
 }
 
+.donateabout {
+  flex-direction: row;
+  width: 100%;
+  padding: 10%;
+  font-family: 'Trebuchet MS', sans-serif;
+  flex: auto;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+h2 {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: lighter;
+  color:black;
+  letter-spacing: 1.3px;
+  padding: 40px 10px;
+}
+
+.donate-heading,
+.give-heading,
+.volunteer-heading {
+  display: inline-block;
+  width: 250px;
+  height: 120px;
+  margin: 20px;
+  border-radius: 5px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.donate-heading {
+  background-color: rgb(67, 223, 192);
+}
+
+.give-heading {
+  background-color: rgba(210, 19, 197, 0.751);
+}
+
+.volunteer-heading {
+  background-color: rgb(243, 217, 20);
+}
+
+.donate-heading:hover {
+  background-color: rgb(31, 235, 194);
+}
+
+.give-heading:hover {
+  background-color: rgb(218, 10, 221);
+}
+
+.volunteer-heading:hover {
+  background-color: rgb(255, 234, 75);
+}
+
+.donate-heading:hover,
+.give-heading:hover,
+.volunteer-heading:hover {
+  transform: scale(1.05); 
+}
+
+
+/*footer*/
 
 footer {
   padding: 10px 10px;
@@ -84,7 +156,7 @@ footer p {
 }
 
 footer a img {
-  height: 60px; /* Adjust image height as needed */
+  height: 60px;
   width: auto;
   padding: 10px;
 }
