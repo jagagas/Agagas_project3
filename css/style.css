@@ -9,11 +9,9 @@
 .balloons {
   background-size: cover;
   position: relative;
-  margin: 0;
-  padding: 0;
-} 
+}
 
-.logo img{
+.logo img {
   position: absolute;
   top: 10px;
   left: 30px;
@@ -23,7 +21,7 @@
 
 .header {
   position: sticky;
-  top: 0px;
+  top: 0;
   background-color: rgb(255, 255, 255);
   filter: drop-shadow(3px 3px 3px rgba(19, 173, 215, 0.50));
   -webkit-filter: drop-shadow(3px 3px 3px rgba(19, 173, 215, 0.50));
@@ -33,42 +31,28 @@ nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 20px 20px;
-  
+  padding: 20px;
 }
 
-nav a{
+nav a {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 600;
   margin-right: 15px; 
-  margin-left: 0;
-  text-decoration: none;
   font-size: 20px;
   color: rgb(2, 153, 176);
-  padding: 14px 14px;
+  padding: 14px;
 }
 
 nav a:hover {
   background-color: #fff700;
-  text-decoration: none;
-} 
+}
 
 .balloons img {
   width: 100%;
   height: auto;
-  align-items: center;
 }
 
-.banner img {
-  max-width: 100%;
-  height: 5%;
-  bottom: 0%;
-}
-
-/*header, nav bar*/
-
-
-
+/* Header, nav bar */
 .aboutpage {
   background: linear-gradient(to bottom, rgb(226, 253, 255), rgba(8, 231, 231, 0.612));
 }
@@ -82,18 +66,30 @@ nav a:hover {
   flex-wrap: nowrap;
 }
 
+.banner img {
+  max-width: 100%;
+  border-radius: 20px;
+}
+
 .eventtitle {
-  flex-direction: column;
+  padding: 15px;
+  background-color: rgb(218, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 20px;
 }
 
 .aboutpage h1 {
-  color: rgb(0, 174, 180);
+  color: rgb(8, 165, 171);
   font-size: 5em;
   font-family: "Poetsen One", sans-serif;
   font-style: normal;
+  animation: fadein 2s;
 }
 
 .aboutpage h2 {
+  padding-bottom: 45px;
   font-size: 3em;
   color: #00070a;
   font-family: "poetsen one", sans-serif;
@@ -101,16 +97,55 @@ nav a:hover {
 }
 
 .aboutpage h3 {
-  font-size: 2em; /* Adjust font size for h3 */
-  color: #000000; /* Change text color */
+  flex: 1;
+  font-size: 2em;
+  color: rgb(8, 165, 171);
   font-family: "poetsen one";
   font-style: normal;
 }
 
-/* Apply styles to paragraphs */
 .aboutpage p {
-  padding-top: 2%;
+  font-family:'Trebuchet MS', sans-serif;
+  flex: 1;
+  padding-right: 10px;
+  font-weight:700;
   font-size: 1.5em;
-  font-family: "Rubik", sans-serif;
+
 }
 
+footer {
+  padding: 10px 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(218, 255, 255);
+}
+
+footer p {
+  font-size: 1em;
+}
+
+footer a img {
+  height: 60px; /* Adjust image height as needed */
+  width: auto;
+  padding: 10px;
+}
+
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logo img {
+    top: 5px;
+    left: 20px;
+    height: 60px;
+  }
+}

@@ -68,3 +68,23 @@ nav a:hover {
 .ticketpage{
   background: linear-gradient(to bottom, white, rgb(8, 231, 231));
 }
+
+
+footer {
+  padding: 10px 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(218, 255, 255);
+}
+
+footer p {
+  font-size: 1em;
+}
+
+footer a img {
+  height: 60px; /* Adjust image height as needed */
+  width: auto;
+  padding: 10px;
+}
